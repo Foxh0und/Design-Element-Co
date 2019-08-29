@@ -1,0 +1,15 @@
+---
+title: FDA Accounting
+subtitle: Website Design
+layout: default
+modal-id: 3
+date: 2019-08-29
+img: fda.jpg
+thumbnail: fda-thumbnail.jpg
+alt: image-alt
+project-date: December 2017
+client: FDA Accountants
+category: Web Development
+description: FDA Accountants needed to communicate it unique values that set them apart.  As part of a website overhaul, we developed a tone of voice that communicated their tailored service to help their clients and their businesses grow.  http://fdatax.com.au/
+
+---

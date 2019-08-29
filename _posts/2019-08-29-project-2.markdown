@@ -1,0 +1,15 @@
+---
+title: Photobooking
+subtitle: Design
+layout: default
+modal-id: 2
+date: 2019-08-29
+img: photobook.jpg
+thumbnail: photobook-thumbnail.jpg
+alt: image-alt
+project-date: October 2018
+client: Julia - Individual Client
+category: PhotoBook
+description: When Julia realized she had hundreds of photos stored on her phone and no way of finding photos, we sorted the images and prepared photo books for her to treasure her memories for a lifetime.  
+
+---

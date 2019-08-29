@@ -1,0 +1,15 @@
+---
+title: Pearland Estate
+subtitle: Brochure Copy
+layout: default
+modal-id: 1
+date: 2019-08-29
+img: dreams.png
+thumbnail: brochure.png
+alt: image-alt
+project-date: January 2019
+client: Advantage Property Group
+category: Brochure Copy
+description: When the Real Estate Company wanted to sell land as part of their upcoming residential development, we took boring land figures and brought to life the perfect place to raise a family and grow a community.  As a result, the lots sold in just two weeks.  https://www.pearlandestate.com.au/
+
+---
