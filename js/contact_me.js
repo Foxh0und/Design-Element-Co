@@ -17,14 +17,34 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://api.sendgrid.com/v3/mail/send",
+                headers: {
+                    'authorization':'Bearer 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',
+                    'Content-Type':'application/json'
+                },
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                  "personalizations": [
+                    {
+                      "to": [
+                        {
+                          "email": "info@designelementco.com"
+                        }
+                      ],
+                      "subject": "Email from Website: " + name
+                    }
+                  ],
+                  "from": {
+                    "email": email
+                  },
+                  "content": [
+                    {
+                      "type": "text/plain",
+                      "value": message
+                    }
+                  ]
                 },
                 cache: false,
                 success: function() {
