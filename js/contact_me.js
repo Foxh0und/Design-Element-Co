@@ -25,6 +25,7 @@ $(function() {
                     'Content-Type':'application/json'
                 },
                 type: "POST",
+                crossDomain: true,
                 data: {
                   "personalizations": [
                     {
